@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "nested-delta"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pyspark = "^3.5.1"
+delta-spark = "^3.1.0"
+jupyter = "^1.0.0"
+temppathlib = "^1.2.0"
+polars = "^0.20.23"
+deltalake = "^0.17.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,2 +1,4 @@
 *.DS_Store
 .ipynb_checkpoints/
+battery_test_data/
+spark-warehouse/
